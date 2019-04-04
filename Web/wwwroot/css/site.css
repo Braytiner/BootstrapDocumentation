@@ -1,0 +1,22 @@
+﻿body {
+    font-family: sans-serif;
+    background-color: #212D40
+}
+
+h2 {
+    color: #F0F3F5;
+    margin-bottom: 5px;
+}
+
+.cor-fundo-container {
+    background-color: cornsilk;
+}
+
+.cor-fundo-linha {
+    background-color: #5F758E;
+}
+
+.cor-fundo-coluna {
+    background-color: #D17373;
+    border: solid 1px #B24747;
+}
