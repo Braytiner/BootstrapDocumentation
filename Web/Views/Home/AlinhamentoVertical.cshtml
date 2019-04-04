@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewData["Title"] = "Alinhamento vertical";
+}
+
+<h2>Alinhamento vertical de todos os itens da linha</h2>
+
+<!--
+Para alinhar todos os itens contidos na linha, utilize a classe _align-itens_,
+na div da row. As variações dessa classe são _start_, _center_ e _end_.
+-->
+
+<h5>align-items-start</h5>
+<div class="container cor-fundo-container">
+    <div class="row cor-fundo-linha altura-linha align-items-start">
+        <div class="col-4 cor-fundo-coluna">Primeiro item</div>
+        <div class="col-4 cor-fundo-coluna">Segundo item</div>
+    </div>
+</div>
+
+<h5>align-items-center</h5>
+<div class="container cor-fundo-container">
+    <div class="row cor-fundo-linha altura-linha align-items-center">
+        <div class="col-4 cor-fundo-coluna">Primeiro item</div>
+        <div class="col-4 cor-fundo-coluna">Segundo item</div>
+    </div>
+</div>
+
+<h5>align-items-end</h5>
+<div class="container cor-fundo-container">
+    <div class="row cor-fundo-linha altura-linha align-items-end">
+        <div class="col-4 cor-fundo-coluna">Primeiro item</div>
+        <div class="col-4 cor-fundo-coluna">Segundo item</div>
+    </div>
+</div>
+
+<h2>Alinhamento vertical para apenas um item</h2>
+
+<!--
+Para alinhar *apenas um item* utilize a classe _align-self_, *na div da coluna*.
+As variações dessa classe são _start_, _center_ e _end_. Cabe lembrar que para ver
+o recurso em ação *é necessário definir o tamanho da linha*.
+-->
+
+<h5>align-self-start / align-self-center / align-self-end</h5>
+<div class="container cor-fundo-container">
+    <div class="row cor-fundo-linha altura-linha">
+        <div class="col-4 cor-fundo-coluna align-self-start">Primeiro item</div>
+        <div class="col-4 cor-fundo-coluna align-self-center">Segundo item</div>
+        <div class="col-4 cor-fundo-coluna align-self-end">Terceiro item</div>
+    </div>
+</div>

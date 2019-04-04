@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Grid";
+}
+
+<h5>Quebra de colunas com largura automática w-100</h5>
+
+<div class="container cor-fundo-container">
+    <div class="row cor-fundo-linha">
+        <div class="col-sm cor-fundo-coluna">
+            Coluna 1
+        </div>
+        <div class="col-sm cor-fundo-coluna">
+            Coluna 2
+        </div>
+
+        <!-- Para quebrar colunas com largura automática
+             utilize a classe _w-100_ em uma nova div antes
+            da coluna que quer quebrar -->
+        <div class="w-100"></div>
+
+        <div class="col-sm cor-fundo-coluna">
+            Coluna 3
+        </div>
+        <div class="col-sm cor-fundo-coluna">
+            Coluna 4
+        </div>
+    </div>
+</div>
+
