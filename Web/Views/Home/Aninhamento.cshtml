@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Aninhamento";
+}
+
+<h5>Aninhamento sem definir altura da linha</h5>
+<div class="row cor-fundo-linha">
+    <div class="col-sm-9 cor-fundo-coluna">
+        Nível 1: .col-sm-9
+        <div class="row cor-fundo-linha-2">
+            <div class="col-8 col-sm-6 cor-fundo-coluna-2">
+                Nível 2: .col-8 .col-sm-6
+            </div>
+            <div class="col-4 col-sm-5 cor-fundo-coluna-2">
+                Nível 2: .col-4 .col-sm-5
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-2 cor-fundo-coluna">
+        Coluna fora do aninhamento
+    </div>
+</div>
+
+<h5>Aninhamento definindo altura da linha</h5>
+
+<div class="row cor-fundo-linha altura-linha">
+    <div class="col-sm-9 cor-fundo-coluna">
+        Nível 1: .col-sm-9
+        <div class="row cor-fundo-container cor-fundo-linha-2">
+            <div class="col-8 col-sm-6 cor-fundo-coluna-2">
+                Nível 2: .col-8 .col-sm-6
+            </div>
+            <div class="col-4 col-sm-5 cor-fundo-coluna-2">
+                Nível 2: .col-4 .col-sm-5
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-2 cor-fundo-coluna">
+        Coluna fora do aninhamento
+    </div>
+</div>
+

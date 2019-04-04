@@ -1,11 +1,26 @@
 ﻿body {
     font-family: sans-serif;
-    background-color: #212D40
+    background-color: #212D40    
+}
+
+h1 {
+    color: #F0F3F5;
+    margin: 15px 5px;
 }
 
 h2 {
     color: #F0F3F5;
-    margin-bottom: 5px;
+    margin: 10px 5px;
+}
+
+h4 {
+    color: #F0F3F5;
+    margin-bottom: 7px;
+}
+
+h5 {
+    color: #F0F3F5;
+    margin: 10px 0px 0px;
 }
 
 .cor-fundo-container {
@@ -16,7 +31,20 @@ h2 {
     background-color: #5F758E;
 }
 
+.cor-fundo-linha-2 {
+    background-color: #3F556E;
+}
+
 .cor-fundo-coluna {
     background-color: #D17373;
     border: solid 1px #B24747;
+}
+
+.cor-fundo-coluna-2 {
+    background-color: #B24747;
+    border: solid 1px #F29797;
+}
+
+.altura-linha {
+    height: 90px;
 }
